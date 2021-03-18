@@ -26,8 +26,9 @@ import { XLargeDirective } from './x-large';
   styleUrls: [ './home.component.css' ],
   /**
    * Every Angular template is first compiled by the browser before Angular runs it's compiler.
+   previous change  templateUrl: './home.component.html'
    */
-  templateUrl: './home.component.html'
+  template: '<h1> New title </h1>'
 })
 export class HomeComponent implements OnInit {
   /**
