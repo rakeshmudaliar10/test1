@@ -18,7 +18,7 @@ export const ROOT_SELECTOR = 'app';
     './app.component.css'
   ],
   template: `
-   <h1>my project </h1>
+   <h1>editing project title </h1>
   `
 })
 export class AppComponent implements OnInit {
